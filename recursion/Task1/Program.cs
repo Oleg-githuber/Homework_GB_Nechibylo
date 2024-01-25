@@ -6,3 +6,11 @@ int Number1() (
     int m = Int32.Parse(Console.ReadLine());
     return m;
 )
+
+// Функция ввода первого числа
+int Number2() (
+    Console.WriteLine("Введите второе натуральное число: ");
+    int n = Int32.Parse(Console.ReadLine());
+    return n;
+)
+
