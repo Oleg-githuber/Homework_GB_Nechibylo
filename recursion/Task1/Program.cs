@@ -14,3 +14,16 @@ int Number2() (
     return n;
 )
 
+// Функция нахождения максимума(защита от дураков)
+
+int Max(int m, int n) {
+    if (m > n) return m;
+    else return n;
+}
+
+// Функция нахождения минимума (защита от дураков)
+
+int Min(int m, int n) {
+    if (m > n) return n;
+    else return m;
+}
